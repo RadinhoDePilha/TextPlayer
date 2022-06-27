@@ -10,11 +10,11 @@ Unfortunately, reading large texts takes time. This CLI assumes that a person ca
 
 ## Installation
 
-    > pip install pynput, pypdf
+    pip install pynput pypdf
 
-    > git clone https://github.com/RadinhoDePilha/TextPlayer
+    git clone https://github.com/RadinhoDePilha/TextPlayer
 
-    > cd TextPlayer
+    cd TextPlayer
 
 ## Usage 
 
@@ -23,19 +23,19 @@ On the project folder:
     python TextPlayer.py file.pdf
 
 You can add the argument -p or --page with the number of the page that you wanna start
-
+<br>
 <h3>Controls in the CLI</h3>
 <br>
 
-**Right/Left:** Change the speed of the words displayed 
+- **Right/Left:** Change the speed of the words displayed 
 <br>
 
-**Space:** Pause/Run the displayer
+- **Space:** Pause/Run the displayer
 <br>
 
-**Enter:** Go to the next page
+- **Enter:** Go to the next page
 
-**Esc:** Exit the CLI
+- **Esc:** Exit the CLI
 <br>
 
-**i:** Hide/Show the information about the controls
+- **i:** Hide/Show the information about the controls
