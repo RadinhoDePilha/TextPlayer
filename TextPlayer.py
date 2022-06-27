@@ -68,6 +68,7 @@ class Listador(Thread):
                 for word in text:
                     
                             os.system('clear')
+                            print('\n')
                             print(word.center(50).replace('\n', '')) 
                             print('\n\n\n\n')
                             print(f'Delay: {self.velocidade:.2f} \

@@ -10,7 +10,7 @@ Unfortunately, reading large texts takes time. This CLI assumes that a person ca
 
 ## Installation
 
-    pip install pynput pypdf
+    pip install pynput pypdf2
 
     git clone https://github.com/RadinhoDePilha/TextPlayer
 
