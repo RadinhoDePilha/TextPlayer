@@ -18,6 +18,17 @@ parser.add_argument(
     default=0,
     type= int,
 
+
+)
+
+parser.add_argument(
+    '-cm', '--clipboard-mode',
+    required=False,
+    help='Use this to use the Clipboard Mode (EXPERIMENTAL)',
+    dest='clipmode',
+    default=0
 )
 
 args = parser.parse_args()
+
+print(args)
